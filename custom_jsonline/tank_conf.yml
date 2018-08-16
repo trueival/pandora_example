@@ -1,0 +1,30 @@
+overload:
+    enabled: true
+    package: yandextank.plugins.DataUploader
+    token_file: "token.txt"
+console: {enabled: false, package: yandextank.plugins.Console}
+telegraf: {enabled: false, package: yandextank.plugins.Telegraf}
+phantom: {enabled: false, package: yandextank.plugins.Phantom}
+pandora:
+    enabled: true
+    pandora_cmd: ./pandora
+    config_content:
+        pools:
+          - id: HTTP pool
+            gun:
+                type: custom_gun
+                target: testyour.host.ru
+            ammo:
+                type: custom_provider
+                source:
+                    type: file
+                    path: ./json.ammo
+            result:
+                type: phout
+                destination: ./phout.log
+            rps: {duration: 600s, type: line,  from: 1, to: 1500}
+            startup:
+                type: once
+                times: 5000
+        log:
+            level: error
