@@ -1,0 +1,76 @@
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+1161 case2
+POST /case2 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+Content-Length: 1024
+
+zcu3jEtf0IaAF0upjWFN5HlNc2oLU66t4IstF4NwWgtdzfIYj9P8vUNcI2sFlrXxjOFGLpeirFJrZ2tiyGerncL3W7mqiPyXXMXUmWABn65ngXlKNwa7XkKMC1tqF5F9hfjqlws3bng73OZRcKuFTNN7wcjO46atKjyFZRk9Q2n8hv8AbuloYWWu7RIekAiP0JbvOJEsdF7PX8fsBlU5YeqR6P3Ga7k09htRgbf9iC0ICZ7kh443TrnRbODPdYIF3IAA71KKTq8ECZEy8pSN4G0OvypYULBjyyrU7ErvQlUVV9UlbFVeNlTyKARibNQuM5vcIXYFVANPBXiR2zMlcNwGgVJW606XZVOElp8I2ldgrfRC8f4PqliJSB7QgdPZf2sxfl0VoTXox6hDhGTB320XuTktYGwIpo15uezIDdk5yt7TBr6lC7NCtYlgZeJSBKGR8uDtFDJEZAjCFgpDYSY1vcY9Cgcp6x9tJLpcSjeM42s7gEYmFjU8ybYA0PhBxlPKk8lNT7N1ilPbKF2iUR3clAzYPLesTBtVgBjPNOyoECGNOQOPj4mNfKnJF1PkhyFYoE9TIzDVTVUM0CTGkQHlADhSoSnnLtmaASsplGloDoVrYxp143c0M92ovJxf3ODIzsGkF5gJKHGeckEQPgaVKZVOKD9j9EeCRlFuRb7x8uIJLvu1iJbytp0df9OMmamSJohIf4IBWsyxts8j3qYuUvYKJNuAmooHTKV912q3NnWCp50h6EBsT0ICgUblOryj8ovfNhKZOAEejVqIzEH776M3QshlN7Upv0IbynBbSNFfkzshzAgQvqzxTJZzTtvsjRvZMJcCiAhefi73nCPy7xPzC3Qol7coiLS1X1FPe2hfpJATYpvyGWTCxjftXJintXcaIV4JxG0sehslihlFgB2iBJIgXqKtNcdV3h7KSBa6sSC5UUZlJyiw5fufw1zo21FcfnzAcF2gUM2fidDFTYAoSQCqGuLL4xzeAlcKXbz6pKEPLmOd3TtP2iT7
+
+1161 case2
+POST /case2 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+Content-Length: 1024
+
+zcu3jEtf0IaAF0upjWFN5HlNc2oLU66t4IstF4NwWgtdzfIYj9P8vUNcI2sFlrXxjOFGLpeirFJrZ2tiyGerncL3W7mqiPyXXMXUmWABn65ngXlKNwa7XkKMC1tqF5F9hfjqlws3bng73OZRcKuFTNN7wcjO46atKjyFZRk9Q2n8hv8AbuloYWWu7RIekAiP0JbvOJEsdF7PX8fsBlU5YeqR6P3Ga7k09htRgbf9iC0ICZ7kh443TrnRbODPdYIF3IAA71KKTq8ECZEy8pSN4G0OvypYULBjyyrU7ErvQlUVV9UlbFVeNlTyKARibNQuM5vcIXYFVANPBXiR2zMlcNwGgVJW606XZVOElp8I2ldgrfRC8f4PqliJSB7QgdPZf2sxfl0VoTXox6hDhGTB320XuTktYGwIpo15uezIDdk5yt7TBr6lC7NCtYlgZeJSBKGR8uDtFDJEZAjCFgpDYSY1vcY9Cgcp6x9tJLpcSjeM42s7gEYmFjU8ybYA0PhBxlPKk8lNT7N1ilPbKF2iUR3clAzYPLesTBtVgBjPNOyoECGNOQOPj4mNfKnJF1PkhyFYoE9TIzDVTVUM0CTGkQHlADhSoSnnLtmaASsplGloDoVrYxp143c0M92ovJxf3ODIzsGkF5gJKHGeckEQPgaVKZVOKD9j9EeCRlFuRb7x8uIJLvu1iJbytp0df9OMmamSJohIf4IBWsyxts8j3qYuUvYKJNuAmooHTKV912q3NnWCp50h6EBsT0ICgUblOryj8ovfNhKZOAEejVqIzEH776M3QshlN7Upv0IbynBbSNFfkzshzAgQvqzxTJZzTtvsjRvZMJcCiAhefi73nCPy7xPzC3Qol7coiLS1X1FPe2hfpJATYpvyGWTCxjftXJintXcaIV4JxG0sehslihlFgB2iBJIgXqKtNcdV3h7KSBa6sSC5UUZlJyiw5fufw1zo21FcfnzAcF2gUM2fidDFTYAoSQCqGuLL4xzeAlcKXbz6pKEPLmOd3TtP2iT7
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
+110 case1
+GET /case1 HTTP/1.1
+Host: test.yourhost.net
+Content-Type: text/html
+Connection: keep-alive
+Accept: */*
+
